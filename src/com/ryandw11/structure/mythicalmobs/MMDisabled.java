@@ -7,7 +7,7 @@ public class MMDisabled implements MythicalMobHook{
 
 	@Override
 	public void spawnMob(String name, Location loc) {
-		Bukkit.getLogger().info("A schematic tried to spawn a MythicalMob! This server does not have the plugin installed!");
+		Bukkit.getLogger().info("A schematic tried to spawn a MythicMob! This server does not have the plugin installed!");
 		return;
 	}
 
